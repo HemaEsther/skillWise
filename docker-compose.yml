@@ -1,0 +1,46 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - backend
+      - livekit
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./server:/app
+    environment:
+      - NODE_ENV=development 
+    env_file:
+      - .env  
+    depends_on:
+      - livekit
+    networks:
+      - app-network
+
+  livekit:
+    image: livekit/livekit:latest 
+    ports:
+      - "3001:3001"
+    env_file:
+      - .env  
+    networks:
+      - app-network   
+
+networks:
+  app-network:
+    driver: bridge
