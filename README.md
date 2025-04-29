@@ -1,4 +1,4 @@
-# Peer-to-Peer Learning Platform
+# SkillWise | A Peer-to-Peer Learning Platform
 
 A collaborative learning platform where users can teach, learn, and share knowledge.
 
