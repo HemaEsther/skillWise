@@ -1,4 +1,4 @@
-# Peer-to-Peer Learning Platform
+# SkillWise | A Peer-to-Peer Learning Platform
 
 A collaborative learning platform where users can teach, learn, and share knowledge.
 
@@ -31,7 +31,7 @@ A collaborative learning platform where users can teach, learn, and share knowle
    npm install
    ```
 3. Create a .env file in the root directory with:
-   ```
+   ```env
    MONGODB_URI=your_mongodb_uri
    JWT_SECRET=your_jwt_secret
    PORT=5000
