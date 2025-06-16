@@ -23,6 +23,8 @@ const chatInput = document.getElementById('chat-input');
 const sendMessageButton = document.getElementById('send-message');
 const toggleChatButton = document.getElementById('toggleChat');
 
+
+
 // Chat Variables
 let isChatCollapsed = true;
 let chatPosition = { x: 0, y: 0 };
