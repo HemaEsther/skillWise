@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
 @layer base {
   body {
     @apply bg-background text-foreground;
@@ -140,4 +141,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
