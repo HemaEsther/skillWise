@@ -18,13 +18,13 @@ A collaborative learning platform where users can teach, learn, and share knowle
 ![Homepage](./home_mentor.png)
 
 ### 📊 Classes Dashboard
-![Dashboard](./classes.jpeg)
+![Dashboard](./classes.png)
 ### 📊 Discussions Dashboard
 ![Dashboard](./discussions.jpeg)
 ### 📊 Community Dashboard
 ![Dashboard](./community.jpeg)
 ### 📊 Profile Dashboard
-![Dashboard](./profile.jpeg)
+![Dashboard](./profile.png)
 
 ### 🎥 Live Class View
 ![Live Class](./live_stream.jpeg)
