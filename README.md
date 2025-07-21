@@ -7,19 +7,37 @@ A collaborative learning platform where users can teach, learn, and share knowle
 - User registration (Learners & Mentors)
 - Class creation and management
 - Live video sessions
-- Community discussions
+- Community discussions with Sentiment Analysis
 - Rating and review system
 - Admin dashboard
 - Search and filtering
 
+  ## 📸 Screenshots
+
+### 🏠 Homepage(Dashboard)
+![Homepage](./home_mentor.png)
+
+### 📊 Classes Dashboard
+![Dashboard](./classes.jpeg)
+### 📊 Discussions Dashboard
+![Dashboard](./discussions.jpeg)
+### 📊 Community Dashboard
+![Dashboard](./community.jpeg)
+### 📊 Profile Dashboard
+![Dashboard](./profile.jpeg)
+
+### 🎥 Live Class View
+![Live Class](./live_stream.jpeg)
+
+
 ## Tech Stack
 
-- Frontend: React, TypeScript, Tailwind CSS
+- Frontend: React, Tailwind CSS, Context API, Gemini API
 - Backend: Node.js, Express
+- Sentiment Analysis - Pretrained Model - distilbert
 - Database: MongoDB
-- Authentication: JWT
-- Real-time: Socket.io
-- Video: WebRTC/Agora
+- Authentication: JWT stored in httpOnly Cookies
+- Live Streaming: LiveKitCall
 
 ## Setup Instructions
 
